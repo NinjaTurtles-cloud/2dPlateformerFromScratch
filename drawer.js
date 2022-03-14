@@ -36,10 +36,10 @@ function noFill() {
   render.fillStryle = "rgba(0, 0, 0, 0)";
 }
 function line(x1, y1, x2, y2) {
-  render.beginPath();
-  render.moveTo(x1, y1);
-  render.lineTo(x2, y2);
-  render.stroke();
+  render.beginPath(); // on commence le dessin
+  render.moveTo(x1, y1); // coordoné de la fin la ligne
+  render.lineTo(x2, y2); // coordonée de la fin de la ligne
+  render.stroke(); // On trace un contour pour dessinger le trait.
 }
 function circle(x, y, r) {
   render.beginPath();

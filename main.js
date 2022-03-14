@@ -3,6 +3,7 @@ var render = canvas.getContext("2d");
 var width;
 var height;
 
+/* Pour initialiser le backGround */
 canvas.style.left = "0px";
 canvas.style.top = "0px";
 canvas.style.position = "absolute";
