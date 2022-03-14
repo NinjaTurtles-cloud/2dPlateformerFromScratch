@@ -1,0 +1,12 @@
+window.innerHeight prend toute la largeur
+
+Let's make a plateformer
+
+Dans ce tutoriel nous alllons créer un jeu de plateforme en javascript fromScratch/
+
+
+Part 1 Drawing to the screen -
+
+Dans cette
+
+https://docs.google.com/document/d/1wnA96iO5grSRLRbG4v4sPhPmQSkmTg5hcKymUunGPNk/edit#
