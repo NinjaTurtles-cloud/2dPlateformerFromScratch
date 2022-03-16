@@ -13,18 +13,21 @@ window.onresize = function () {
   height = window.innerHeight;
   canvas.width = width;
   canvas.height = height;
-
+  Player.draw();
+  /*
   background(25, 25, 25);
 
   noFill();
-  strokeColor(0, 255, 0);
-  strokeSize(4);
+  strokeColor(0, 255, 0); // Stroke rectangle
+  strokeSize(2);
   rectangle(25, 25, 50, 100);
-  strokeColor(255, 0, 0);
+  strokeColor(0, 0, 255); // Stroke Line
   line(50, 100, 25, 300);
-  strokeColor(255, 0, 0);
-  fillColor(0, 255, 255);
+  strokeColor(255, 0, 0); // Stroke Circle
+  fillColor(255, 255, 0); // FillCercle
+  strokeSize(10);
   circle(200, 200, 67);
+  */
 };
 
 window.onresize();
