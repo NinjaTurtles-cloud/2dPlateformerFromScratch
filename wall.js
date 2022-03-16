@@ -1,16 +1,12 @@
-class player {
+var walls = [];
+class wall {
   constructor(x, y) {
     this.x = x;
     this.y = y;
     this.size = 32;
     objects.push(this);
+    walls.push(this);
   }
-  step() {
-    //this.x = mouseX;
-    //this.y = mouseY;
-    if (keyDown.W) this.y += 64;
-  }
-
   draw() {
     strokeColor(0, 255, 0);
     strokeSize(5);

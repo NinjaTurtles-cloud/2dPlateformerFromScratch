@@ -33,7 +33,7 @@ function noStroke() {
 }
 
 function noFill() {
-  render.fillStryle = "rgba(0, 0, 0, 0)";
+  render.fillStyle = "rgba(0, 0, 0, 0)";
 }
 function line(x1, y1, x2, y2) {
   render.beginPath(); // on commence le dessin
