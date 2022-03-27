@@ -33,6 +33,7 @@ window.onresize = function () {
 
 var objects = [];
 
+//Positionne le mur
 for (var i = 0; i < 32; i++) {
   new wall(i * 32, 400);
 }
@@ -48,17 +49,20 @@ function line(x1, y1, x2, y2) {
 }
 */
 
+//
 function loop() {
   stepLoop();
   drawLoop();
   keyEnd();
 }
+
+//Là ouu se produisent les calcul
 function stepLoop() {
   for (var i = 0; i < objects.length; i++) {
     if (objects[i].step) objects[i].step();
   }
 }
-
+//La ou nous dessinons les truc a l'écran
 function drawLoop() {
   background(25, 25, 25);
   for (var i = 0; i < objects.length; i++) {
@@ -66,5 +70,5 @@ function drawLoop() {
   }
 }
 
-var target_fps = 30;
-setInterval(loop, 1000 / target_fps);
+var target_fps = 30; //Définis le frame Per Seconde
+setInterval(loop, 1000 / target_fps); // La fonction loop sera appelé tout les 1000ms divis par 30 (target_fps)

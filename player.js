@@ -12,7 +12,7 @@ class player {
   }
 
   draw() {
-    strokeColor(0, 255, 0);
+    strokeColor(255, 255, 255);
     strokeSize(5);
     //nofill();
     rectangle(this.x, this.y, this.size, this.size);
